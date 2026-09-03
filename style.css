@@ -12,13 +12,14 @@ body {
     background-color: white;
     display: flex;
     padding: 5mm 0px;
+    height: 45px;
 
 }
 
 .div1 {
     background-color: #EFF4F7;
     min-width: 1400px;
-    height: 25px;
+    height: 20px;
     text-align: center;
     padding: 5px;
 }
@@ -40,7 +41,7 @@ body {
 
 .div2 {
     background-color: #EFF4F7;
-    height: 25px;
+    height: 20px;
     width: 7cm;
     border-radius: 35px;
     padding: 10px;
@@ -81,4 +82,52 @@ body {
     margin-top: 10px;
     margin-left: 35px;
 
+}
+.heroimage{
+    width: 100%;
+}
+.bar{
+    width:100%;
+}
+.div5{
+    line-height: 0;
+    position: relative;
+}
+
+.leftarrow {
+    position: absolute;
+    top: 250px; 
+    left: 18px;
+    width: 58px;
+    height: 58px;
+
+    background-color: #20252a;
+    color: white;
+    border: none;
+    border-radius: 50%;
+
+    font-size: 20px;
+}
+.rightarrow{
+    position: absolute;
+    top: 250px;
+    right:18px;
+    width:58px;
+    height:58px;
+    background-color: #20252a;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.div6{
+    background-color: #e8f2f7;
+    width: 100%;
+    height: 2cm;
+}
+.extra25{
+    width: 57px;
+    position: absolute;
+    top: 632px;
+    left: 24px;
 }
