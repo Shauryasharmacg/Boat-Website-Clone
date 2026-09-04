@@ -127,7 +127,13 @@ body {
 }
 .extra25{
     width: 57px;
-    position: absolute;
+}
+.div7{
+     position: absolute;
     top: 632px;
     left: 24px;
+    display: flex;
+}
+.p1{
+margin-top: 7.7mm;
 }
