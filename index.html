@@ -7,6 +7,7 @@
     <title>Boat clone</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <link rel="icon" href="icon.png">
 </head>
 
 <body>
@@ -27,14 +28,14 @@
                 <li>More <i class="fa-solid fa-chevron-down"></i> </li>
             </ul>
             <div class="div2">
-                <i class="fa-solid fa-magnifying-glass" style="font-size: 6mm;"></i>
+                <i class="fa-solid fa-magnifying-glass" id="search"></i>
                 <input type="text" placeholder="search products" class="searchbar">
             </div>
             <div class="div3">
-                <i class="fa-regular fa-user" style="font-size: 25px;"></i>
+                <i class="fa-regular fa-user" id="user"></i>
             </div>
             <div class="div4">
-                <i class="fa-solid fa-bag-shopping" style="font-size: 25px;"></i>
+                <i class="fa-solid fa-bag-shopping" id="bag"></i>
             </div>
         </nav>
         <!-- navbar completed -->
@@ -43,10 +44,11 @@
     <main>
 
         <div class="div5">
-            <div class="div5">
+            
                 <button class="leftarrow">
                     <i class="fa-solid fa-angle-left"></i>
                 </button>
+             
                 <button class="rightarrow">
                     <i class="fa-solid fa-angle-right"></i>
                 </button>
@@ -56,11 +58,27 @@
                     <div class="div7">
                         <img src="extra25.png" alt="25% icon" class="extra25">
                         <p class="p1">12+3 Months</p>
-                        <p>warranty</p>
+                        <br>
+                        <p class="p2">warranty<i class="fa-solid fa-circle-info"></i></p>
+                    </div>
+                    <div class="div8">
+                        <i class="fa-solid fa-receipt" id="bill"></i>
+                        <p class="p3">GST </p>
+                        <p class="p4">Billing</p>
+                    </div>
+                    <div class="div9">
+                        <i class="fa-solid fa-truck-fast" id="truck"></i>
+                        <p class="p5">Free Express</p>
+                        <p class="p6">Delivery <sup class="super">*</sup></p>
+                    </div>
+                    <div class="div10">
+                        <i class="fa-solid fa-box-open" id="box"></i>
+                        <p class="p7">7-day</p>
+                        <p class="p8"> Replacement</p>
                     </div>
                 </div>
-            </div>
         </div>
+        
     </main>
 </body>
 
