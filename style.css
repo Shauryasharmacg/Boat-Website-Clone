@@ -4,7 +4,7 @@
 
 body {
     margin: 0px;
-    background-color: black;
+    background-color: white                  ;
 }
 
 .navbar {
@@ -235,4 +235,38 @@ body {
     position: absolute;
     top: 650px;
     right: 6cm;
+}
+.inline{
+    display: flex;
+
+}
+.heading1{
+    margin-left: 4%;
+    margin-top: 2%;
+}
+.h2_1{
+    margin-top: 1.79%;
+    margin-left: 0.5%;
+    font-weight:900;
+    font-size: 6.5mm;
+}
+.h2_2{
+    margin-top: 1.79%;
+    font-weight:900;
+    font-size: 6.5mm;
+}
+.parent_div{
+    display: flex;
+    margin-left: 3%;
+}
+.img{
+    border-radius: 5mm;
+}
+.child_div1{
+    display: block;
+    border-radius: 5mm;
+    height: 8cm;
+    background-color: #f8f6e7;
+    margin-left: 2.7mm;
+    margin-top: 8mm;
 }
