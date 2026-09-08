@@ -75,7 +75,10 @@ body {
 #box {
     font-size: 8.5mm;
 }
-
+#dotted{
+    margin-top: 5%;
+    margin-inline: 7%;
+}
 .searchbar {
     margin-left: 2mm;
     margin-bottom: 6px;
@@ -152,7 +155,7 @@ body {
 .div6 {
     background-color: #e8f2f7;
     width: 100%;
-    height: 2cm;
+    height: 1.7cm;
 }
 
 .extra25 {
@@ -161,8 +164,8 @@ body {
 
 .div7 {
     position: absolute;
-    top: 632px;
-    left: 30mm;
+    top: 620px;
+    left: 28mm;
     display: flex;
 }
 
@@ -211,18 +214,23 @@ body {
     top: 6mm;
     left: 12mm;
 }
+.p9{
+    font-weight:1000;
+    margin-left: 8%;
+    margin-top:6%
+}
 
 .div8 {
     display: flex;
     position: absolute;
-    top: 650px;
+    top: 636px;
     left: 13cm;
 }
 
 .div9 {
     display: flex;
     position: absolute;
-    top: 650px;
+    top: 636px;
     left: 21cm
 }
 
@@ -233,16 +241,12 @@ body {
 .div10 {
     display: flex;
     position: absolute;
-    top: 650px;
+    top: 636px;
     right: 6cm;
 }
-.inline{
-    display: flex;
-
-}
 .heading1{
-    margin-left: 4%;
-    margin-top: 2%;
+    margin-left: 3%;
+    margin-top: 2.1%;
 }
 .h2_1{
     margin-top: 1.79%;
@@ -257,7 +261,7 @@ body {
 }
 .parent_div{
     display: flex;
-    margin-left: 3%;
+    margin-left: 2%;
 }
 .img{
     border-radius: 5mm;
@@ -265,7 +269,7 @@ body {
 .child_div1{
     display: block;
     border-radius: 5mm;
-    height: 8cm;
+    height: 10cm;
     background-color: #f8f6e7;
     margin-left: 2.7mm;
     margin-top: 8mm;
