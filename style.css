@@ -246,16 +246,18 @@ body {
     width: 65px;
     background-color: #ECF0F4;
 }
+
 .p11 {
     margin-top: 2%;
     margin-left: 3%;
     border-radius: 10mm;
     padding: 7px 27px;
     width: 6.6cm;
-    color: white; 
+    color: white;
     background-color: #1A2024;
     text-align: center;
 }
+
 .big_deals {
     display: flex;
 }
@@ -340,6 +342,7 @@ body {
     right: 3.3%;
     top: 34.99cm
 }
+
 .rarrow3 {
     color: #2F5B96;
     position: absolute;
@@ -361,6 +364,7 @@ body {
     margin-top: 9mm;
     margin-left: 5mm;
 }
+
 .child_div2 {
     display: block;
     border-radius: 5mm;
@@ -369,4 +373,29 @@ body {
     background-color: #EFF4F7;
     margin-left: 2.7mm;
     margin-top: 8mm;
+}
+
+.parent_press {
+    display: flex;
+    gap: 0px;
+    margin-left: 3%;
+    margin-top: 3.5%;
+}
+
+.press {
+    background-color: #D0D9DE;
+    height: 60px;
+    width: 5cm;
+    height: 1mm; 
+    text-align: center;
+    padding-inline: 6%;
+    padding-block: 8%;
+    font-size: 5mm;
+}
+
+.qoute {
+    background-color: #EFF4F7;
+    height: 6cm;
+    width: 25.84cm
+
 }
