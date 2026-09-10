@@ -96,6 +96,12 @@ body {
     color: #12B985;
 }
 
+#qoute {
+    position: absolute;
+    right: 13cm;
+    font-size: 20mm;
+}
+
 .searchbar {
     margin-left: 2mm;
     margin-bottom: 6px;
@@ -258,6 +264,16 @@ body {
     text-align: center;
 }
 
+.p12 {
+    margin-top: 8%;
+    margin-left: 3%;
+    border-radius: 10mm;
+    padding: 7px 27px;
+    color: black;
+    text-align: center;
+    font-size: 8mm;
+}
+
 .big_deals {
     display: flex;
 }
@@ -386,7 +402,7 @@ body {
     background-color: #D0D9DE;
     height: 60px;
     width: 5cm;
-    height: 1mm; 
+    height: 1mm;
     text-align: center;
     padding-inline: 6%;
     padding-block: 8%;
@@ -397,5 +413,4 @@ body {
     background-color: #EFF4F7;
     height: 6cm;
     width: 25.84cm
-
 }
