@@ -231,7 +231,17 @@ body {
     margin-left: 8%;
     margin-top:6%
 }
-
+.p10{
+    margin-top: 2%;
+    margin-left: 3%;
+    border-radius: 10mm;
+    padding: 7px 27px;
+    width: 65px;
+    background-color:#ECF0F4;
+}
+.big_deals{
+    display: flex;
+}
 .div8 {
     display: flex;
     position: absolute;
@@ -274,6 +284,11 @@ body {
 .parent_div{
     display: flex;
     margin-left: 2%;
+}
+.parent_div2{
+    display: flex;
+    margin-left: 2%;
+    padding-top: 0;
 }
 .img{
     border-radius: 5mm;
