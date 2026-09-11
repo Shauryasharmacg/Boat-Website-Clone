@@ -273,7 +273,11 @@ body {
     text-align: center;
     font-size: 8mm;
 }
-
+.p13{
+    margin-left: 2mm;
+    font-size: 8mm;
+    font-weight: bold;
+}
 .big_deals {
     display: flex;
 }
@@ -418,5 +422,28 @@ body {
 .footer1{
     background-color: #E9F0F4;
     margin-top: 5%;
-    margin-inline: 3.23%;
+    margin-inline: 1.2%;
+    padding: 4%;
+}
+.email_box{
+    border-radius: 3mm;
+    background-color: white;
+    width:33%;
+    font-size: 9mm;
+    display: flex;
+    height: 12mm;
+}
+.searchbar2{
+    margin-top: 3mm;
+    margin-left: 2mm;
+    border: none;
+    font-size: 4mm;
+    height: 50%;
+    width: 90%;
+    border-radius: 20px;
+    outline: none;
+}
+#farrow{
+    margin-top: 3mm;
+    font-size: 6mm;
 }
