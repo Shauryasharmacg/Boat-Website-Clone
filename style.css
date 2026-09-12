@@ -278,7 +278,7 @@ body {
     margin-left: 2mm;
     font-size: 8mm;
     font-weight: bold;
-    width: 110%;
+   
 }
 
 .big_deals {
@@ -426,20 +426,24 @@ body {
     background-color: #E9F0F4;
     margin-top: 5%;
     margin-inline: 1.2%;
-    display: flex;
+    display: grid;
     gap: 2cm;
 }
-.logo{
+.footer-left{
     margin-top: 4%;
     margin-inline: 4%;
+    display: flex;
+    flex-direction: column;
 }
 .table{
     margin-top: 2mm;
+    display: flex;
+    flex-direction: column;       
 }
 .email_box {
     border-radius: 3mm;
     background-color: white;
-    width: 110%;
+    width: 33%;
     font-size: 9mm;
     display: flex;
     height: 12mm;
@@ -459,4 +463,7 @@ body {
 #farrow {
     margin-top: 3mm;
     font-size: 6mm;
+}
+.image_boat{
+    width: 15%;
 }
