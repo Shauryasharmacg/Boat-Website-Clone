@@ -278,7 +278,7 @@ body {
     margin-left: 2mm;
     font-size: 8mm;
     font-weight: bold;
-   
+
 }
 
 .big_deals {
@@ -320,6 +320,10 @@ body {
     margin-left: 0.5%;
     font-weight: 900;
     font-size: 6.5mm;
+}
+
+.pre1 {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .h2_2 {
@@ -426,24 +430,37 @@ body {
     background-color: #E9F0F4;
     margin-top: 5%;
     margin-inline: 1.2%;
-    display: grid;
+    display: flex;
     gap: 2cm;
 }
-.footer-left{
+
+.footer-left {
     margin-top: 4%;
     margin-inline: 4%;
     display: flex;
     flex-direction: column;
 }
-.table{
-    margin-top: 2mm;
+
+
+.list2 {
+    margin-left: -50%;
+    margin-top: 50%;
     display: flex;
-    flex-direction: column;       
+    flex-direction: column;
+    line-height: 200%;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
+
+.li_shop {
+    font-weight: 1000;
+}
+
 .email_box {
     border-radius: 3mm;
     background-color: white;
-    width: 33%;
+    width: 110%;
     font-size: 9mm;
     display: flex;
     height: 12mm;
@@ -455,7 +472,7 @@ body {
     border: none;
     font-size: 4mm;
     height: 50%;
-    width: 90%;
+    width: 110%;
     border-radius: 20px;
     outline: none;
 }
@@ -464,6 +481,16 @@ body {
     margin-top: 3mm;
     font-size: 6mm;
 }
-.image_boat{
-    width: 15%;
+
+.image_boat {
+    width: 50%;
+}
+.list3{
+    margin-left: -42mm;
+    margin-top: 34mm;
+    display: flex;
+    flex-direction: column;
+    line-height: 200%;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
