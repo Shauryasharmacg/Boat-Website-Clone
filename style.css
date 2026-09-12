@@ -278,6 +278,7 @@ body {
     margin-left: 2mm;
     font-size: 8mm;
     font-weight: bold;
+    width: 110%;
 }
 
 .big_deals {
@@ -433,7 +434,7 @@ body {
     margin-inline: 4%;
 }
 .table{
-    
+    margin-top: 2mm;
 }
 .email_box {
     border-radius: 3mm;
