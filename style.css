@@ -273,11 +273,13 @@ body {
     text-align: center;
     font-size: 8mm;
 }
-.p13{
+
+.p13 {
     margin-left: 2mm;
     font-size: 8mm;
     font-weight: bold;
 }
+
 .big_deals {
     display: flex;
 }
@@ -419,21 +421,30 @@ body {
     width: 25.84cm
 }
 
-.footer1{
+.footer1 {
     background-color: #E9F0F4;
     margin-top: 5%;
     margin-inline: 1.2%;
-    padding: 4%;
+    display: flex;
+    gap: 2cm;
 }
-.email_box{
+.logo{
+    margin-top: 4%;
+    margin-inline: 4%;
+}
+.table{
+    
+}
+.email_box {
     border-radius: 3mm;
     background-color: white;
-    width:33%;
+    width: 110%;
     font-size: 9mm;
     display: flex;
     height: 12mm;
 }
-.searchbar2{
+
+.searchbar2 {
     margin-top: 3mm;
     margin-left: 2mm;
     border: none;
@@ -443,7 +454,8 @@ body {
     border-radius: 20px;
     outline: none;
 }
-#farrow{
+
+#farrow {
     margin-top: 3mm;
     font-size: 6mm;
 }
