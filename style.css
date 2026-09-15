@@ -444,13 +444,13 @@ body {
 
 .list2 {
     margin-left: -50%;
-    margin-top: 50%;
+    margin-top: 18%;
     display: flex;
     flex-direction: column;
-    line-height: 200%;
+    line-height: 10mm;
     list-style-type: none;
     font-family: Arial, Helvetica, sans-serif;
-
+    font-size: small;
 }
 
 .li_shop {
@@ -485,12 +485,15 @@ body {
 .image_boat {
     width: 50%;
 }
-.list3{
-    margin-left: -42mm;
-    margin-top: 34mm;
+
+.list3 {
+    margin-left: -38mm;
+    margin-top: 18mm;
     display: flex;
     flex-direction: column;
     line-height: 200%;
     list-style-type: none;
     font-family: Arial, Helvetica, sans-serif;
+    font-size:small ;
+    line-height: 10mm;
 }
