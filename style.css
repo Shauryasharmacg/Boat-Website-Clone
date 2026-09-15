@@ -276,9 +276,9 @@ body {
 
 .p13 {
     margin-left: 2mm;
-    font-size: 8mm;
+    font-size: 5.5mm;
     font-weight: bold;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .big_deals {
@@ -405,13 +405,12 @@ body {
 .parent_press {
     display: flex;
     gap: 0px;
-    margin-left: 3%;
+    margin-inline: 3%;
     margin-top: 3.5%;
 }
 
 .press {
     background-color: #D0D9DE;
-    height: 60px;
     width: 5cm;
     height: 1mm;
     text-align: center;
@@ -422,7 +421,7 @@ body {
 
 .qoute {
     background-color: #EFF4F7;
-    height: 6cm;
+    height: 5.8cm;
     width: 25.84cm
 }
 
@@ -472,7 +471,7 @@ body {
     border: none;
     font-size: 4mm;
     height: 50%;
-    width: 110%;
+    width: 80%;
     border-radius: 20px;
     outline: none;
 }
@@ -483,7 +482,7 @@ body {
 }
 
 .image_boat {
-    width: 50%;
+    width: 60%;
 }
 
 .list3 {
@@ -494,6 +493,27 @@ body {
     line-height: 200%;
     list-style-type: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-size:small ;
+    font-size: small;
     line-height: 10mm;
+}
+
+.list4 {
+    margin-top: 18.9%;
+    display: flex;
+    flex-direction: column;
+    line-height: 8.63mm;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+.list5{
+    margin-left: 10%;
+    margin-top: 18.9%;
+    display: flex;
+    flex-direction: column;
+    line-height: 8.63mm;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    width:3cm;
 }
