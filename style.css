@@ -101,7 +101,14 @@ body {
     right: 13cm;
     font-size: 20mm;
 }
-
+#social{
+    font-size: 5mm;
+    margin-left: 2mm;
+}
+.bold_last{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4mm;
+}
 .searchbar {
     margin-left: 2mm;
     margin-bottom: 6px;
@@ -280,7 +287,18 @@ body {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
+.p14{
+    margin-left: 41%;
+    margin-top: 2%;
+    font-size: 3mm;
+}
+.p15{
+    margin-left: 3%;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 3mm;
 
+}
 .big_deals {
     display: flex;
 }
@@ -439,16 +457,29 @@ body {
     margin-inline: 1.2%;
     display: flex;
     gap: 2cm;
+    padding-bottom: 4%;
 }
-
+.footer3 {
+    background-color: #E9F0F4;
+    padding-top: 2%;
+    margin-inline: 1.2%;
+    gap: 2cm;
+    
+}
 .footer-left {
     margin-top: 4%;
     margin-inline: 4%;
     display: flex;
     flex-direction: column;
 }
-
-
+.div_last{
+    margin-left: 40%;
+}
+.div_last1{
+    margin-left: 30.2%;
+    margin-top: 2%;
+    display: flex;
+}
 .list2 {
     margin-left: -50%;
     margin-top: 18%;
@@ -565,4 +596,9 @@ body {
 .li_shop2 {
     font-weight: 600;
     margin-top:1%;
+}
+.last_list{
+    display: flex;
+    margin-left: -2%;
+    gap: 35px;
 }
